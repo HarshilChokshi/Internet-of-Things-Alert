@@ -1,0 +1,57 @@
+
+
+#ifndef IOT_Alert_IOTAlert_pch
+#define IOT_Alert_IOTAlert_pch
+
+    #import "Database.h"
+    #import "Macros.h"
+    #import "Reachability.h"
+    #import "UIButton+WebCache.h"
+    #import "UIImageView+WebCache.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+
+#define DEVICE_TOKEN        @"deviceToken"
+// Application Name
+#define APPNAME             @"IOT Alert"
+
+
+// Alert Message
+#define INTERNET_NOT        @"Internet not Available"
+
+
+// Table Name
+#define tblSENSORDETAIL     @"SensorDetail"
+
+// Field Name
+#define kID                 @"id"
+#define kSENSORTYPE         @"SensorType"
+#define kADDITIONALINFO     @"AdditionalInfo"
+#define kALERT              @"alert"
+#define kSensorDate         @"sensorDate"
+#define kisChecked          @"isChecked"
+
+//Sensor Type Name
+#define kSensorTemp         @"Temperature"
+#define kSensorMotion       @"Motion"
+#define kSensorGas          @"Gas"
+#define kSensorFlame        @"Flame"
+#define kSensorHumidity     @"Humidity"
+
+// Install
+
+#define kInstallTime        @"InstallTime"
+
+// Degree
+#define HumidityTemp        @"HumidityDegree"
+
+// PaginationValue
+
+static NSString * const paginationVal  = @"10";
+
+
+// Base Url For Image
+#define BASEURL            @"https://commoniotstorage.blob.core.windows.net/motioncaptureimages-direct/"
